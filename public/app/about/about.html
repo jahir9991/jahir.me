@@ -1,0 +1,44 @@
+<section id="about" class="page page-about ">
+  <ng-include src="'app/main/template/header.html'"></ng-include>
+
+  <section id="about-section" class="section wow animated fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
+    <div class="container">
+
+
+      <h1>about</h1>
+      <div class="row">
+        <div class="col-md-6  ">
+          <!--<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200' rel='stylesheet' type='text/css'>-->
+
+          <div class="window">
+            <div class="handle">
+              <div class="buttons">
+                <button class="close">
+                </button>
+                <button class="minimize">
+                </button>
+                <button class="maximize">
+                </button>
+              </div>
+              <span class="title"></span>
+            </div>
+            <div class="terminal"></div>
+          </div>
+
+
+        </div>
+        <div class="col-md-6  ">
+          <p>
+            {{about.intro}}
+          </p>
+
+          <p></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <ng-include src="'app/main/template/footer.html'"></ng-include>
+</section>

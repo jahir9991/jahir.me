@@ -1,0 +1,16 @@
+{
+  "name": "jahir.me",
+  "version": "0.0.1",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "zepto": "^1.1.6",
+    "jquery": "^3.1.1",
+    "wow": "^1.1.2",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.9",
+    "font-awesome": "^4.7.0",
+    "gmaps": "^0.4.24",
+    "angular-ui-router": "ui-router#^0.3.2",
+    "angular-animate": "^1.5.9"
+  }
+}
