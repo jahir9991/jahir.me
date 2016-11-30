@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x \"node --harmony_proxies\" server.js",
-    "start": "nodemon  server.js",
+    "start": "node --harmony_proxies server.js",
     "lint": "standard",
     "model": "node --harmony_proxies ace "
   },
