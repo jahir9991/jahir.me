@@ -828,7 +828,7 @@ form.hidden {
 }
 
 #clouds .x4 {
-  left: 470px;
+  left: -470px;
   top: -250px;
   transform: scale(0.75);
   opacity: 0.75;
@@ -838,6 +838,24 @@ form.hidden {
 
 #clouds .x5 {
   left: -150px;
+  top: -150px;
+  transform: scale(0.8);
+  opacity: 0.8;
+  /*opacity proportional to the size*/
+  animation: moveclouds 20s linear infinite;
+}
+
+#clouds .x6 {
+  left: -30px;
+  top: -150px;
+  transform: scale(0.8);
+  opacity: 0.8;
+  /*opacity proportional to the size*/
+  animation: moveclouds 20s linear infinite;
+}
+
+#clouds .x7 {
+  left: 1000px;
   top: -150px;
   transform: scale(0.8);
   opacity: 0.8;
@@ -882,9 +900,9 @@ form.hidden {
 
 @keyframes moveclouds {
   0% {
-    margin-left: 1000px;
+    margin-left: 10px;
   }
   100% {
-    margin-left: -1000px;
+    margin-left: 2000px;
   }
 }
