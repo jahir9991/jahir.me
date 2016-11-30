@@ -188,6 +188,10 @@ h2 {
   min-height: 74Vh;
 }
 
+.page .section .title {
+  padding: 5px;
+}
+
 .cart {
   background-color: #b34534;
   position: absolute;

@@ -83,7 +83,7 @@ function terminal() {
 
   // END COMMANDS
 
-  var title = $(".title");
+  var title = $(".window.title");
   var terminal = $(".terminal");
   var prompt = "➜";
   var path = "~";
