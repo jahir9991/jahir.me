@@ -245,7 +245,7 @@ function test() {
     loop: true,
     prerender: true,
     autoplay: true,
-    path: 'http://res.cloudinary.com/rodetyo/raw/upload/v1471318336/data_tpdfkx.json'
+    path: '/data/test.json'
   };
   var anim = bodymovin.loadAnimation(animData);
 }
