@@ -238,6 +238,7 @@ function terminal() {
   displayPrompt();
 };
 
+var path = '/data/test.json';
 
 function test() {
   var animData = {
@@ -246,7 +247,7 @@ function test() {
     loop: true,
     prerender: true,
     autoplay: true,
-    path: '/data/test.json'
+    path: path
   };
   var anim = bodymovin.loadAnimation(animData);
 }

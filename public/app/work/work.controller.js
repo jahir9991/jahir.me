@@ -6,15 +6,22 @@
 
   angular
     .module('index')
-    .controller('WorkController', ['loaded', WorkController]);
+    .controller('WorkController', ['$http', WorkController]);
 
 
   /** @ngInject */
-  function WorkController(loaded) {
+  function WorkController($http) {
+
     test();
     var vm = this;
-    loaded = true;
+
     vm.pageClass = 'page-about';
+    $http.get('/data/test.json')
+      .then(function (res) {
+
+
+      });
+
 
   }
 })();
