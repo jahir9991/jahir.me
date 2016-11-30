@@ -245,7 +245,7 @@ function test() {
     loop: true,
     prerender: true,
     autoplay: true,
-    path: '/data/test.json'
+     path: '/data/test.json'
   };
   var anim = bodymovin.loadAnimation(animData);
 }
