@@ -196,6 +196,10 @@ h2 {
 /*************************
 *******Root  CSS******
 **************************/
+hr{
+  size: 30px;
+}
+
 .page {
 
   margin-top: 170px;
@@ -203,7 +207,8 @@ h2 {
 
     min-height: 74Vh;
     .title {
-      padding: 5px;
+      padding: 15px;
+      //border-bottom: 3px solid whitesmoke;
     }
 
   }

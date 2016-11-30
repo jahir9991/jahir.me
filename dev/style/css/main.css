@@ -180,6 +180,10 @@ h2 {
 /*************************
 *******Root  CSS******
 **************************/
+hr {
+  size: 30px;
+}
+
 .page {
   margin-top: 170px;
 }
@@ -189,7 +193,7 @@ h2 {
 }
 
 .page .section .title {
-  padding: 5px;
+  padding: 15px;
 }
 
 .cart {
