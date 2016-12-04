@@ -31,7 +31,6 @@ body {
   font-size: 17px;
   color: #fff;
   margin-top: 5%;
-  overflow: hidden;
 }
 
 a {
@@ -46,7 +45,6 @@ a:focus, a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -185,7 +183,7 @@ hr {
 }
 
 .page {
-  margin-top: 170px;
+  margin-top: 8%;
 }
 
 .page .section {
@@ -709,7 +707,7 @@ form.hidden {
 }
 
 .window .handle {
-  height: 22px;
+  height: 30px;
   background: linear-gradient(0deg, #d8d8d8, #ececec);
   border-top: 1px solid white;
   border-bottom: 1px solid #b3b3b3;
@@ -717,8 +715,8 @@ form.hidden {
   border-top-right-radius: 5px;
   color: rgba(0, 0, 0, 0.7);
   font-family: Helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: center;
 }
 
@@ -744,7 +742,6 @@ form.hidden {
   padding: 4px;
   background-color: black;
   opacity: 0.7;
-  height: 218px;
   color: white;
   font-family: 'Source Code Pro', monospace;
   font-weight: 200;

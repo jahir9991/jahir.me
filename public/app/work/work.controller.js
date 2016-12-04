@@ -13,6 +13,7 @@
   function WorkController($http) {
 
     test();
+
     var vm = this;
 
     vm.pageClass = 'page-about';

@@ -12,15 +12,15 @@
 
   /** @ngInject */
   function AboutController() {
-    terminal();
+
 
     var vm = this;
-    vm.intro = "Hi, I'm Jahir Alam,     an aspiring web developer with an interest in Full-stack.     \
-                     I'm majoring in Data-science by day and teaching myself web development and design by night.     \
-                     I was born and raised many worlds away from the Silicon Valley, on a pebble called Sardinia, floating amid   \
-                     the       \
-                     Mediterranean Sea.      \
-                     I love almost anything under the sun, apart from spiders and coconuts."
+    vm.intro = {
+      who: "Hello, I’m Jahir Alam",
+      what: "freelance full stack Web-Developer,and Programmer based in dhaka,Bangladesh. ",
+      study: "Complete Bsc. in Software Engineering  from American University-Bangladesh ",
+      love: " My goal is to collaborate with like-minded individuals who are out to be change they want to see in the world. If you've got a project or hopeful idea you'd like to discuss, don't hestitate to get in touch! "
+    };
 
   }
 })();
