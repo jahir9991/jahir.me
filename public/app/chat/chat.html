@@ -1,0 +1,40 @@
+<div class="chat-details bg-dark ">
+  <div class="container">
+
+    <div class="row center-block ">
+      <div>
+        <label for="">what is your name?</label>
+        <input class="bg-dark" type="text" ng-model="chat.name">
+        <button ng-click="chat.submitName(chat.name)">submit name</button>
+
+      </div>
+
+      <div class="row">
+        <div class="col-xs-8">
+          <ul>
+            <li ng-repeat="message in chat.messages">
+              <span class="username">{{message.username}}:::</span>
+              <span class="username">{{message.message}}</span>
+
+            </li>
+          </ul>
+
+
+        </div>
+
+        <div class="col-xs-4">
+          <ul>
+            <li ng-repeat="user in chat.users">{{user}}</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+    <form ng-submit="chat.send(chat.sms)" novalidate>
+
+      <input class="bg-dark" name="chat.sms" type="text" ng-model="chat.sms" required>
+      <input type="submit">
+    </form>
+  </div>
+</div>

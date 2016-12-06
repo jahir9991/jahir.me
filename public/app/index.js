@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('index', ['ui.router', 'ngAnimate'])
+    .module('index', ['ui.router', 'ngAnimate', 'btford.socket-io'])
     .value('loaded', false);
 
 })();
@@ -57,7 +57,10 @@
 
   angular
     .module('index')
-    .controller('MainController', MainController);
+    .controller('MainController', MainController)
+    .factory('mySocket', function (socketFactory) {
+      return socketFactory();
+    });
 
 
   /** @ngInject */
