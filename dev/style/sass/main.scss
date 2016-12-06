@@ -624,7 +624,7 @@ $height: 100%;
   }
 }
 
-form {
+.chat-form {
 
   transition: opacity .3s .7s ease;
   &.hidden {
@@ -634,7 +634,7 @@ form {
   }
 }
 
-.send {
+.chat-close {
   background: #03A9F4;
   color: white;
   width: 56px;
@@ -1068,4 +1068,7 @@ $window-height: 480px;
   }
 }
 
+#chat-details {
+
+}
 

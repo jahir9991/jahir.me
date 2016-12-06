@@ -14,21 +14,22 @@
     <div class="cloud x7"></div>
   </div>
 
+  <section ng-controller="ChatController as chat">
+    <div class="fab">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#03A9F4" height="24" viewBox="0 0 24 24" width="24" class="message">
+        <path
+          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path>
+        <path d="M0 0h24v24H0z" fill="none"></path>
+      </svg>
 
-  <div class="fab">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="#03A9F4" height="24" viewBox="0 0 24 24" width="24" class="message">
-      <path
-        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path>
-      <path d="M0 0h24v24H0z" fill="none"></path>
-    </svg>
-    <form class="hidden">
-      <input type="text" id="to" placeholder="To"/>
-      <input type="text" id="subject" placeholder="Subject"/>
-      <textarea id="message" placeholder="Say Something"></textarea>
-      <div class="send">SEND</div>
-    </form>
-  </div>
+      <div class="chat-form hidden">
+        <div class="chat-close pull-right wow animated fadeIn " data-wow-delay="1s">x</div>
+        <ng-include src="'app/chat/chat.html'"></ng-include>
+      </div>
 
+
+    </div>
+  </section>
   <div ng-controller="MainController as main">
 
 

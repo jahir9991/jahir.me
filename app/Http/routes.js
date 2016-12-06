@@ -14,7 +14,7 @@
  | Route.post('/user', 'UserController.store')
  | Route.resource('user', 'UserController')
  */
-
+// use("App/Http/socket")
 const Route = use('Route')
 
 
@@ -23,6 +23,7 @@ Route.get('/', 'HomeController.index')
 Route.get('/users', 'UserController.index')
 Route.get('/user/:id', 'UserController.show')
 Route.post('/addusers', 'UserController.create')
+Route.get('/getsms', 'ChatController.index')
 
 
 

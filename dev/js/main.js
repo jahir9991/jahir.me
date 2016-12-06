@@ -24,20 +24,19 @@ $(window).resize(function () {
 
 $(".fab").on('click', function () {
   $(this).addClass("new-message");
-  $("form").removeClass("hidden");
+  $(".chat-form").removeClass("hidden");
   $(".message").attr("class", "message hidden");
 
 })
 
 
-$(".send").on('click', function (e) {
+$(".chat-close").on('click', function (e) {
   $(".fab").removeClass("new-message");
   $(".fab").addClass("return");
-  $("form").addClass("hidden");
+  $(".chat-form").addClass("hidden");
   $(".message").attr("class", "message");
   e.stopPropagation();
 })
-
 
 
 var path = '/data/test.json';

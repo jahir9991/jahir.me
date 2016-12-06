@@ -608,17 +608,17 @@ hr {
   cursor: auto;
 }
 
-form {
+.chat-form {
   transition: opacity .3s .7s ease;
 }
 
-form.hidden {
+.chat-form.hidden {
   visibility: hidden;
   opacity: 0;
   transition: opacity .3s ease;
 }
 
-.send {
+.chat-close {
   background: #03A9F4;
   color: white;
   width: 56px;

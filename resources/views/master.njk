@@ -23,7 +23,10 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png"/>
   <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"/>
   <script src="libs/modernizr/modernizr.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.7/socket.io.min.js"></script>
+  <!--<script>-->
+   <!--var socket = io('http://localhost:3000');-->
+  <!--</script>-->
 
 </head><!--/head-->
 <body class="bg-dark">
@@ -62,16 +65,22 @@
 
 
 <script type="text/javascript" src="libs/angular/angular.min.js"></script>
+<script type="text/javascript" src="libs/angular-socket-io/socket.min.js"></script>
+
 <script type="text/javascript" src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script type="text/javascript" src="libs/angular-animate/angular-animate.min.js"></script>
 
 
 <script type="text/javascript" src="app/index.js"></script>
+<script type="text/javascript" src="app/chat/chat.model.js"></script>
+
+
 <script type="text/javascript" src="app/home/home.controller.js"></script>
 <script type="text/javascript" src="app/about/about.controller.js"></script>
 <script type="text/javascript" src="app/work/work.controller.js"></script>
 <script type="text/javascript" src="app/article/article.controller.js"></script>
 <script type="text/javascript" src="app/contact/contact.controller.js"></script>
+<script type="text/javascript" src="app/chat/chat.controller.js"></script>
 
 
 {% endblock %}
